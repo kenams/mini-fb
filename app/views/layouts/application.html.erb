@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MiniFb</title>
+  <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track' => true %>
+  <%= javascript_include_tag 'application', 'data-turbolinks-track' => true %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+	<header>
+		<nav class="navbar navbar-default">
+  			<div class="container-fluid">
+    			<div class="navbar-header"><a class="navbar-brand" href="#">Mini-facebook</a></div>
+				<ul class="nav navbar-nav navbar-right">
+        			<li><a href="#">Log-out</a></li>
+        		</ul>
+        		<button type="button" class="btn btn-default navbar-btn">Sign in</button>
+        	</div>
+		</nav>
+	</header>
+
+	
+
+
+
+<%= yield %>
+
+</body>
+</html>
